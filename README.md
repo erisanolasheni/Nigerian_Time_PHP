@@ -1,11 +1,11 @@
-## Language Time PHP
+# Language Time PHP
 
 A library that converts Time to its equivalent local languages starting with three basic Nigeria languages(Yoruba, Hausa and Igbo)
 
 
 **********
 
-##Usage
+## Usage
 ``` php
 // Import Yoruba Time Class
 require '../Languages/Yoruba/Yoruba.php';
@@ -43,6 +43,3 @@ echo $igbo->getTimeHour(12,34);
 echo $hausa->getTimeHour(12,34);
 
 echo $english->getTimeHour(12,34);
-
-//
-

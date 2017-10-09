@@ -1,7 +1,7 @@
 <?php
 // Import Yoruba Time Class
 require '../Languages/Yoruba/Yoruba.php';
-//Import Igbo Timw Class
+//Import Igbo Time Class
 require '../Languages/Igbo/Igbo.php';
 //Import Hausa Time Class
 require '../Languages/Hausa/Hausa.php';
