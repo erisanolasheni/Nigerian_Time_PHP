@@ -1,6 +1,6 @@
 # Language Time PHP
 
-A library that converts Time to its equivalent local languages starting with three basic Nigeria languages(Yoruba, Hausa and Igbo)
+A library that converts Time to its equivalent local languages starting with three basic Nigeria languages(Yoruba, Hausa, Igbo and English)
 
 
 **********
