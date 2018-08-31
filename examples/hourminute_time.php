@@ -1,5 +1,5 @@
 <?php
-namespace LanguageTime;
+namespace NigerianTime;
 
 // Import Yoruba Time Class
 require_once '../Languages/Yoruba/Yoruba.php';
