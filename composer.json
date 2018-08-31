@@ -2,7 +2,6 @@
   "name": "erisanolasheni/nigerian-time",
   "type": "library",
   "description": "PHP library that translates time in Nigerian native dialects: Yoruba, Igbo, Hausa and English time translator.",
-  "version": "1.0.0",
   "keywords": [
     "time",
     "translator",
