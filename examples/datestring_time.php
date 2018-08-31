@@ -1,20 +1,17 @@
 <?php
+namespace LanguageTime;
 
 // Import Yoruba Time Class
-require '../Languages/Yoruba/Yoruba.php';
-use LanguageTime\Yoruba;
+require_once '../Languages/Yoruba/Yoruba.php';
 
 //Import Igbo Time Class
-require '../Languages/Igbo/Igbo.php';
-use LanguageTime\Igbo;
+require_once '../Languages/Igbo/Igbo.php';
 
 //Import Hausa Time Class
-require '../Languages/Hausa/Hausa.php';
-use LanguageTime\Hausa;
+require_once '../Languages/Hausa/Hausa.php';
 
 //Import English Time Class
-require '../Languages/English/English.php';
-use LanguageTime\English;
+require_once '../Languages/English/English.php';
 
 // Instantiate your classes
 
