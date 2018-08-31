@@ -18,10 +18,10 @@ require __DIR__."/vendor/autoload.php";
 // Import Yoruba Time Class
 use LanguageTime\English;
 
-//Import Igbo Time Class
+//Import Hausa Time Class
 use LanguageTime\Hausa;
 
-//Import Hausa Time Class
+//Import Igbo Time Class
 use LanguageTime\Igbo;
 
 //Import English Time Class
