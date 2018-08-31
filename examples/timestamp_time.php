@@ -1,21 +1,27 @@
 <?php
-namespace NigerianTime;
+require __DIR__ . '/../vendor/autoload.php';
 
 // Import Yoruba Time Class
-require_once '../Languages/Yoruba/Yoruba.php';
+use LanguageTime\English;
 
 //Import Igbo Time Class
-require_once '../Languages/Igbo/Igbo.php';
+use LanguageTime\Hausa;
 
 //Import Hausa Time Class
-require_once '../Languages/Hausa/Hausa.php';
+use LanguageTime\Igbo;
 
 //Import English Time Class
-require_once '../Languages/English/English.php';
+use LanguageTime\Yoruba;
 
+// Instantiate your classes
+
+// For Yoruba
 $yoruba = new Yoruba();
+// For Igbo
 $igbo = new Igbo();
+// For Hausa
 $hausa = new Hausa();
+// For English
 $english = new English();
 
 //Call time from timestamp
@@ -26,5 +32,3 @@ echo $igbo->getTime(time());
 echo $hausa->getTime(time());
 
 echo $english->getTime(time());
-
-?>
