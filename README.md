@@ -7,7 +7,7 @@ A library that converts Time to its equivalent local languages of 4 basic Nigeri
 ## Installation
 Nigeria Time PHP can be installed with composer:
 ```
-composer require erisanolasheni/nigeria-time
+composer require erisanolasheni/nigerian-time
 ```
 
 ## Usage
