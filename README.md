@@ -27,6 +27,19 @@ use LanguageTime\Igbo;
 //Import English Time Class
 use LanguageTime\Yoruba;
 ```
+### Call Instance of the Class to Display Current Time
+```php
+echo new Yoruba();
+// Aago Márùn-ún Ku ìsẹ́jú Méjì
+echo new Hausa();
+// Karfe Biyar Sauran Minti Biyu
+echo new Igbo();
+// Elekere  Ise O foro nkeji
+echo new English();
+// Two minutes to Five
+```
+
+
 ### Call time from timestamp
 
 ```php
@@ -42,7 +55,8 @@ echo $yoruba->getTime("now");
 echo $yoruba->getTime("today");
 echo $yoruba->getTime("yesterday");
 echo $yoruba->getTime("+ 7 days");
-echo $yoruba->getTime("2017-10-09 12:34:00");
+echo $yoruba->getTime("2017-10-09 12:50:00");
+// Aago Kan Ku ìsẹ́jú Mẹ́wàá
 ```
 ### Call time Igbo from datestring
 
@@ -51,7 +65,8 @@ echo $igbo->getTime("now");
 echo $igbo->getTime("today");
 echo $igbo->getTime("yesterday");
 echo $igbo->getTime("+ 7 days");
-echo $igbo->getTime("2017-10-09 12:34:00");
+echo $igbo->getTime("2017-10-09 12:50:00");
+// Elekere  Otu O foro nkeji  Iri
 ```
 ### Call time Hausa from datestring
 
@@ -60,7 +75,8 @@ echo $hausa->getTime("now");
 echo $hausa->getTime("today");
 echo $hausa->getTime("yesterday");
 echo $hausa->getTime("+ 7 days");
-echo $hausa->getTime("2017-10-09 12:34:00");
+echo $hausa->getTime("2017-10-09 12:50:00");
+// Karfe Daya Sauran Minti Goma
 ```
 ### Call time English from datestring
 
@@ -69,7 +85,9 @@ echo $english->getTime("now");
 echo $english->getTime("today");
 echo $english->getTime("yesterday");
 echo $english->getTime("+ 7 days");
-echo $english->getTime("2017-10-09 12:34:00");
+
+echo $english->getTime("2017-10-09 12:50:00");
+// Ten minutes to One
 ```
 ### Call time from hours and minutes
 

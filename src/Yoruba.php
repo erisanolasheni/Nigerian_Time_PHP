@@ -7,6 +7,11 @@ require_once "YorubaConstants.php";
 
 class Yoruba
 {
+    public function __toString()
+    {
+        // Construct to return the current time
+        return $this->getTime(time());
+    }
     public function getTime($param)
     {
         $param = !is_numeric($param) ? strtotime($param) : $param;
@@ -97,4 +102,6 @@ class Yoruba
 
         return $switch[$number - 1];
     }
+
 }
+echo new Yoruba();

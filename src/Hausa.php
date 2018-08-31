@@ -7,6 +7,12 @@ require_once "HausaConstants.php";
 
 class Hausa
 {
+    public function __toString()
+    {
+        // Construct to return the current time
+        return $this->getTime(time());
+    }
+
     public function getTime($param)
     {
         $param = !is_numeric($param) ? strtotime($param) : $param;
@@ -104,3 +110,4 @@ class Hausa
         return $switch[$number - 1];
     }
 }
+echo new Hausa();
