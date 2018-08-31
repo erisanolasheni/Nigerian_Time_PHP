@@ -1,4 +1,7 @@
 <?php
+// Declare the Language Time Namespace
+namespace LanguageTime;
+
 class IgboConstants
 {
 	const number1=" Otu";

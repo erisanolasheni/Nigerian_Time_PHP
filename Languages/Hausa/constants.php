@@ -1,4 +1,7 @@
 <?php
+// Declare the Language Time Namespace
+namespace LanguageTime;
+
 class HausaConstants
 {
 	const number1="Daya";

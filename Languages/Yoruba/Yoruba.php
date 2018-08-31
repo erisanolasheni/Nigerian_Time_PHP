@@ -1,5 +1,9 @@
 <?php
-include 'constants.php';
+// Declare the Language Time Namespace
+namespace LanguageTime;
+// require the 'constants.php';
+require_once "constants.php";
+
 class Yoruba
 {
 public function getTime($param)

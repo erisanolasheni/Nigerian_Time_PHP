@@ -1,12 +1,22 @@
 <?php
+
 // Import Yoruba Time Class
 require '../Languages/Yoruba/Yoruba.php';
+use LanguageTime\Yoruba;
+
 //Import Igbo Time Class
 require '../Languages/Igbo/Igbo.php';
+use LanguageTime\Igbo;
+
 //Import Hausa Time Class
 require '../Languages/Hausa/Hausa.php';
+use LanguageTime\Hausa;
+
 //Import English Time Class
 require '../Languages/English/English.php';
+use LanguageTime\English;
+
+// Instantiate your classes
 
 $yoruba = new Yoruba();
 $igbo = new Igbo();
