@@ -3,17 +3,18 @@
 A library that converts Time to its equivalent local languages of 4 basic Nigerian languages(Yoruba, Hausa, Igbo and English)
 
 
-**********
-## Installation
-Nigeria Time PHP can be installed with composer:
-```
-composer require erisanolasheni/nigerian-time
-```
-
 ## Usage
-To use this library, autoload it's classes:
+To use this library, just require the needed Language class from the `src` folder:
 ``` php
-require __DIR__."/vendor/autoload.php";
+
+//for English
+require_once __DIR__.'/src/English.php';
+//for Yoruba
+require_once __DIR__.'/src/Yoruba.php';
+//for Hausa
+require_once __DIR__.'/src/Hausa.php';
+//for Igbo
+require_once __DIR__.'/src/Igbo.php';
 
 // Import Yoruba Time Class
 use LanguageTime\English;
@@ -43,6 +44,7 @@ echo new English();
 ### Call time from timestamp
 
 ```php
+$yoruba = new Yoruba();
 echo $yoruba->getTime(time());
 echo $igbo->getTime(time());
 echo $hausa->getTime(time());
@@ -51,6 +53,7 @@ echo $english->getTime(time());
 ### Call time Yoruba from datestring
 
 ```php
+$yoruba = new Yoruba();
 echo $yoruba->getTime("now");
 echo $yoruba->getTime("today");
 echo $yoruba->getTime("yesterday");
@@ -61,6 +64,7 @@ echo $yoruba->getTime("2017-10-09 12:50:00");
 ### Call time Igbo from datestring
 
 ```php
+$igbo = new Yoruba();
 echo $igbo->getTime("now");
 echo $igbo->getTime("today");
 echo $igbo->getTime("yesterday");
@@ -71,6 +75,7 @@ echo $igbo->getTime("2017-10-09 12:50:00");
 ### Call time Hausa from datestring
 
 ```php
+$hausa = new Yoruba();
 echo $hausa->getTime("now");
 echo $hausa->getTime("today");
 echo $hausa->getTime("yesterday");
@@ -81,6 +86,7 @@ echo $hausa->getTime("2017-10-09 12:50:00");
 ### Call time English from datestring
 
 ```php
+$english = new Yoruba();
 echo $english->getTime("now");
 echo $english->getTime("today");
 echo $english->getTime("yesterday");
@@ -92,6 +98,10 @@ echo $english->getTime("2017-10-09 12:50:00");
 ### Call time from hours and minutes
 
 ```php
+$yoruba = new Yoruba();
+$igbo = new Yoruba();
+$hausa = new Yoruba();
+$english = new Yoruba();
 //12 hrs, 34 minutes
 echo $yoruba->getTimeHour(12,34);
 echo $igbo->getTimeHour(12,34);

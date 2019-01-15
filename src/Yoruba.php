@@ -1,6 +1,6 @@
 <?php
 // Declare the Language Time Namespace
-namespace NigerianTime;
+namespace LanguageTime;
 
 // require the language constants
 require_once "YorubaConstants.php";

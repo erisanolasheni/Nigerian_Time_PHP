@@ -1,6 +1,6 @@
 <?php
 // Declare the Language Time Namespace
-namespace NigerianTime;
+namespace LanguageTime;
 
 class HausaConstants
 {
